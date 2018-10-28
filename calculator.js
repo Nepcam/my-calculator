@@ -42,3 +42,4 @@ if (action === 'clear') {
 if (action === 'calculate') {
     console.log('equal key!')
 }
+
