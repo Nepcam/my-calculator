@@ -60,6 +60,7 @@ keys.addEventListener('click', e => {
             display.textContent = displayedNum + keyContent
         }
     }
+   
     
 })
 
