@@ -1,10 +1,3 @@
-// Checklist
-// 1. user selects number, display the number 
-// 2. then user select the operator
-// 3. clear screen and display the selected number, and calculate
-// 4. display the answer
-
-
 const calculator = document.querySelector('.calculator')
 const keys = calculator.querySelector('.calculator__keys')
 const display = document.querySelector('calculator__display')
