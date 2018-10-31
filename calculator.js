@@ -59,9 +59,7 @@ keys.addEventListener('click', e => {
         else {
             display.textContent = displayedNum + keyContent
         }
-    }
-    const key = e.target
-    const action = key.dataset.action   
+    }  
 })
 
 
