@@ -15,9 +15,9 @@ keys.addEventListener('click', e => {
         const action = key.dataset.action
         const keyContent = key.textContent
         const displayedNum = display.textContent
-        // Do something
-        Array.from(key.parentNode.children)
-            .forEach(k => k.classList.remove('is-depressed'))
+        // // Do something
+        // Array.from(key.parentNode.children)
+        //     .forEach(k => k.classList.remove('is-depressed'))
     }
     if ('action') {
         console.log('number key!')
