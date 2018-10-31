@@ -60,14 +60,13 @@ keys.addEventListener('click', e => {
             display.textContent = displayedNum + keyContent
         }
     }
-   
-    
+    const key = e.target
+    const action = key.dataset.action   
 })
 
 
 
-const key = e.target
-const action = key.dataset.action
+
 
 
 
