@@ -6,7 +6,7 @@
 
 
 const calculator = document.querySelector('.calculator')
-const keys = calculator.querySelector('.calculator_keys')
+//const keys = calculator.querySelector('.calculator_keys')
 const display = document.querySelector('calculator_display')
 
 keys.addEventListener('click', e => {
