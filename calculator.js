@@ -43,6 +43,9 @@ keys.addEventListener('click', e => {
     }
     
     if (action === 'calculate') {
+        let firstValue = calculator.dataset.firstValue
+        const operator = calculator.dataset.operator
+        const secondValue = displayedNum
         console.log('equal key!')
     }
     
@@ -59,7 +62,15 @@ keys.addEventListener('click', e => {
         else {
             display.textContent = displayedNum + keyContent
         }
-    }  
+    } 
+    
+    if (firstValue) {
+        if (previousKeyType === 'calculate') {
+            firstValue = displayedNum
+        }
+    display.textContent = calculate(firstValue, operator, secondValue)
+    }
+    calculator.dataset.previousKeyType = 'calculate'
 })
 
 
