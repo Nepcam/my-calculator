@@ -2,12 +2,16 @@
 const calculator = document.querySelector('.calculator')
 const keys = calculator.querySelector('.calculator__keys')
 
+
+
 // listening for key presses 
 keys.addEventListener('click', e => {
     if (e.target.matches('button')) {
         // Do something
         const key = e.target
         const action = key.dataset.action
+        console.log(!action)
+
         // if key does not have a data-action attribute, it must be a number key
         if (!action) {
         console.log('number key!')
