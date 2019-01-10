@@ -8,6 +8,7 @@ const keys = calculator.querySelector('.calculator__keys')
 keys.addEventListener('click', e => {
     if (e.target.matches('button')) {
         // Do something
+        console.log('button')
         const key = e.target
         const action = key.dataset.action
         console.log(!action)
