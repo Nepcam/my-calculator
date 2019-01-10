@@ -11,6 +11,7 @@ keys.addEventListener('click', e => {
         console.log('button')
         const key = e.target
         const action = key.dataset.action
+        const displayedNum = display.textContent
         console.log(!action)
 
         // if key does not have a data-action attribute, it must be a number key
